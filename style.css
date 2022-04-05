@@ -8,6 +8,7 @@
 
 #wrapper {
   width: 100%;
+  background-color: darkgreen;
 }
 
 #topBox {
@@ -21,7 +22,7 @@
   width: 270px;
   height: 200px;
   margin-left: 10px;
-  border: solid silver 5px;
+  border: solid gold 5px;
   border-radius: 15%;
 }
 #topBoxNavBar {
@@ -36,6 +37,9 @@
 }
 #topBoxNavBar ul li {
   margin: 10px;
+}
+#topBoxNavBar ul li a {
+  color: gold;
 }
 
 #middleBoxTitle {
