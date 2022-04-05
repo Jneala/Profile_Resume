@@ -3,12 +3,10 @@
   padding: 0;
   vertical-align: top;
   box-sizing: border-box;
-  outline: dotted blue 2px;
 }
 
 #wrapper {
   width: 100%;
-  background-color: darkgreen;
 }
 
 #topBox {
@@ -16,6 +14,8 @@
   min-height: 200px;
   display: flex;
   justify-content: space-between;
+  background-color: darkgreen;
+
   
 }
 #topBox img {
@@ -30,6 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: darkgreen;
 }
 #topBoxNavBar ul {
   text-decoration: none;
@@ -42,28 +43,112 @@
   color: gold;
 }
 
-#middleBoxTitle {
+#flexBoxTitle {
   width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgreen;
+}
+#flexBoxTitle h2{
+  max-width: 80%;
+  color: gold;
 }
 
 #middleBox {
   width: 100%;
-  min-height: 250px;
   display: flex;
   justify-content: center;
+  /* outline: dotted blue 2px; */
 }
 .stackSection {
-  display: flex;
-  justify-content: space-between;
+  padding: 15px;
+  max-width: 33%;
+  margin: 10px;
+  border: solid gold 5px;
+  border-radius: 15%;
+  background-color: darkgreen;
 }
-.techIcons, img{
-  width: 50px;
-  height: 50px;
+.stackSection h3, p{
+  margin: 5px;
+  color: gold;
+  text-align: center;
+  /* outline: dotted blue 2px; */
+}
+.stackSection img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 140px;
+  height: 100px;
+}
+.techIcons {
+  max-width: 100%;
+  padding-top: 10px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  
+  /* outline: dotted blue 2px; */
 }
 
-#bottomBox {
-  width: 100%;
-  min-height: 250px;
+
+@media only screen and (max-width: 3040px){
+  .techIcons img {
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+  }
+}
+
+@media only screen and (max-width: 1040px){
+  .techIcons img {
+    margin: 5px;
+    width: 55px;
+    height: 55px;
+  }
+}
+@media only screen and (max-width: 840px){
+  .techIcons img {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 730px){
+  .techIcons img {
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+  }
+}
+@media only screen and (max-width: 550px){
+  .techIcons img {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+#footer{
+  margin-top: 10px;
+  background-color: green;
   display: flex;
   justify-content: center;
+}
+.tinySiteSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tinySiteSection img {
+  background-color: blue;
+  margin: 10px;
+  width: 25px;
+  height: 25px;
+}
+.tinySiteSection a {
+  text-decoration: none;
+  color: gold;
 }
