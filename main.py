@@ -1,0 +1,1 @@
+# I decided to do my full-stack application in Python because it is my weakest stack 
